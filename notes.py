@@ -2,6 +2,7 @@
 # TODO list:
 ##########################################################################################################
 # 1. Main logic (biopython, flask, requests) - parse sequence / rEndonuclease -> return separated sequence
+# Firstly, search through the rE list, suggest the matches, create complement only after separation
 # 1.5 Database (PostgreSQL/MySQL): SQL script to UPDATE DB data with rEndonuclease list
 # 2. Update main logic to suggest matching list of rEndonuclease (and separate after selection)
 # 2.5 Unit tests (unittests / pytest)
